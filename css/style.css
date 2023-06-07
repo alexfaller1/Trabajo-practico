@@ -20,7 +20,8 @@ li {
 .header {
   display: grid;
   grid-template-rows: 94px 50px;
-  grid-template-areas: "nav" "submenu"; }
+  grid-template-areas: "nav"
+ "submenu"; }
   .header nav {
     grid-area: nav;
     background-color: #D9414E;
@@ -96,7 +97,8 @@ header .submenu {
 main .eslogan {
   display: grid;
   grid-template-rows: 50px 400px;
-  grid-template-areas: "titulo" "adidas"; }
+  grid-template-areas: "titulo"
+ "adidas"; }
   main .eslogan h1 {
     grid-area: titulo; }
   main .eslogan img {
@@ -165,7 +167,8 @@ main .eslogan {
   margin: 5px; }
 
 .cont-carrito img {
-  margin: 20px; }
+  margin: 20px; 
+object-fit: contain;}
 
 .info-carrito {
   display: grid;
