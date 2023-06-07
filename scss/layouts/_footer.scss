@@ -1,0 +1,72 @@
+footer {
+    background-color: rgba(13, 13, 13, .5);
+}
+
+.footer,
+footer a {
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.terminos-condiciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a-somos {
+    margin-top: 40px;
+}
+
+.ref {
+    margin-bottom: 20px;
+}
+
+.preguntas-frecuentes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+
+//<div class="container-footer">
+//         <footer class="footer">
+//             <div class="redes">
+//                 <h3>Siguenos</h3>
+//                 <a href=""><i class="fa-brands fa-instagram">Instagram</i></a>
+//                 <a href=""><i class="fa-brands fa-facebook">Facebook</i></a>
+//                 <a href=""><i class="fa-brands fa-twitter">Twitter</i></a>
+//             </div>
+//             <div class="terminos-condiciones">
+//                 <a href="" class="a-somos"> ¿Quienes somos? </a>
+//                 <div class="ref">
+//                     <a href="">Terminos y condiciones </a>
+//                     <a href="">Politica de privacidad</a>
+//                 </div>
+//             </div>
+//             <div class="preguntas-frecuentes">
+//                 <h3>Ayuda</h3>
+//                 <a href="">Preguntas frecuentes</a>
+//                 <a href="">Metodo de envio</a>
+//                 <a href="">Guia de talles</a>
+//                 <a href="">Devoluciones y Reclamos</a>
+//             </div>
+//         </footer>
+//     </div>

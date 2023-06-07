@@ -1,0 +1,30 @@
+/** productos destacados **/
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(2, 350px);
+    grid-template-columns: repeat(4, 225px);
+    column-gap: 20px;
+    justify-content: center;
+    div {display: flex;
+    flex-direction: column;}
+    #hide {display: none;}
+}
+
+// .productos {
+//     height: 800px;
+// }
+
+
+// .productos-destacados {
+//     display: flex;
+//     flex-direction: column;
+// }
+
+// .productos-destacados img {
+//     object-fit: cover;
+//     height: 225px;
+// }
+
+// #hide {
+//     display: none;
+// }
